@@ -1,0 +1,52 @@
+10 Monster Hunter: World
+
+Descrição:
+
+Conheça o Novo Mundo! Em Monster Hunter: World, o jogo mais recente da série, você pode curtir a experiência máxima de caçada, usando tudo à sua disposição para caçar monstros em um novo mundo repleto de surpresas e emoções.
+
+Gêneros: 
+
+Cooperativo
+Multijogador
+Ação
+Mundo Aberto
+RPG
+Personalização de Personagem
+Terceira Pessoa
+Aventura
+Fantasia
+Difícil
+RPG de Ação
+Um Jogador
+Exploração
+Trilha Sonora Boa
+Alta Rejogabilidade
+Atmosférico
+Hack and Slash
+JRPG
+MMORPG
+Soulslike
+
+REQUISITOS DE SISTEMA:
+
+MÍNIMOS:
+Requer um processador e sistema operacional de 64 bits
+SO: WINDOWS® 10 (64 bits necessário)
+Processador: Intel® Core™ i5 4460 ou Core™ i3 9100F / AMD FX™-6300 ou Ryzen™ 3 3200G
+Memória: 8 GB de RAM
+Placa de vídeo: NVIDIA®GeForce®GTX 760 ou GTX1050 ou AMD Radeon™ R7 260x ou RX 560
+DirectX: Versão 11
+Rede: Conexão de internet banda larga
+Armazenamento: 52 GB de espaço disponível
+Placa de som: DirectSound (DirectX® 9.0c ou superior)
+
+RECOMENDADOS:
+Requer um processador e sistema operacional de 64 bits
+SO: WINDOWS® 10 (64 bits necessário)
+Processador: Intel® Core™ i7 3770 ou Core™ i3 8350 ou Core™ i3 9350F / AMD Ryzen™ 5 1500X ou Ryzen™ 5 3400G
+Memória: 8 GB de RAM
+Placa de vídeo: NVIDIA® GeForce® GTX 1060 (VRAM 3GB) ou GTX 1650 / AMD Radeon™ RX 480 ou RX 570
+DirectX: Versão 11
+Rede: Conexão de internet banda larga
+Armazenamento: 52 GB de espaço disponível
+Placa de som: DirectSound (DirectX® 9.0c ou superior)

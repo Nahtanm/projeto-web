@@ -1,0 +1,48 @@
+15 Tails of Iron
+
+Descrição:
+
+Tails of Iron é um RPG épico de aventura com um combate brutal. Como Redgi, herdeiro do trono, você deve embarcar em uma perigosa missão para retomar seu reino. Explore um mundo charmoso. Forme um grupo de companheiros corajosos. Expulse o impiedoso clã dos Sapos!
+
+Gêneros:
+
+RPG de Ação
+Soulslike
+2D
+Aventura
+Ação / Aventura
+Boa Trama
+Combate
+Difícil
+Narração
+RPG
+Um Jogador
+Ação
+Fantasia
+Atmosférico
+Fantasia Sombria
+Medieval
+Personalização de Personagem
+2,5D
+Espada
+Metroidvania
+
+REQUISITOS DE SISTEMA:
+
+MÍNIMOS:
+Requer um processador e sistema operacional de 64 bits
+SO: Windows 10 64-bit
+Processador: Processor: 2.8 GHz Dual Core CPU
+Memória: 4 GB de RAM
+Placa de vídeo: GeForce GTX 660 or equivalent with 2 GB of video RAM
+DirectX: Versão 11
+Armazenamento: 2 GB de espaço disponível
+
+RECOMENDADOS:
+Requer um processador e sistema operacional de 64 bits
+SO: Windows 10 64-bit
+Processador: 3.2 GHz Quad Core Processor
+Memória: 8 GB de RAM
+Placa de vídeo: GeForce 960 or equivalent with 4GB of video RAM
+DirectX: Versão 11
+Armazenamento: 2 GB de espaço disponível

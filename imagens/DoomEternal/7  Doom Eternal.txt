@@ -1,0 +1,48 @@
+7  Doom Eternal
+
+Descrição:
+
+Os exércitos do Inferno invadiram a Terra. Torne-se o Slayer em uma campanha épica para um jogador e derrote demônios entre dimensões para impedir a derradeira destruição da humanidade. A única coisa que eles temem... é você.
+
+Gêneros:
+
+Tiro em Primeira Pessoa (FPS)
+Ação
+Trilha Sonora Boa
+Violência Detalhada
+Ritmo Rápido
+Violento
+Demônios
+Tiro
+Primeira Pessoa
+Um Jogador
+Sangue
+Multijogador
+Ficção Científica
+Pós-Apocalíptico
+Atmosférico
+Para Adultos
+Boa Trama
+Difícil
+Aventura
+Terror
+
+REQUISITOS DE SISTEMA:
+
+MÍNIMOS:
+Requer um processador e sistema operacional de 64 bits
+SO *: 64-bit Windows 7 / 64-Bit Windows 10
+Processador: Intel Core i5 @ 3.3 GHz or better, or AMD Ryzen 3 @ 3.1 GHz or better
+Memória: 8 GB de RAM
+Placa de vídeo: NVIDIA GeForce GTX 1050Ti (4GB), GTX 1060 (3GB), GTX 1650 (4GB) or AMD Radeon R9 280(3GB), AMD Radeon R9 290 (4GB), RX 470 (4GB)
+Rede: Conexão de internet banda larga
+Armazenamento: 80 GB de espaço disponível
+
+RECOMENDADOS:
+Requer um processador e sistema operacional de 64 bits
+SO: 64-bit Windows 10
+Processador: Intel Core i7-6700K or better, or AMD Ryzen 7 1800X or better
+Memória: 8 GB de RAM
+Placa de vídeo: NVIDIA GeForce GTX 1060 (6GB), NVIDIA GeForce 970 (4GB), AMD RX 480 (8GB)
+Rede: Conexão de internet banda larga
+Armazenamento: 80 GB de espaço disponível
