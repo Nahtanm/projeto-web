@@ -131,7 +131,7 @@ main {
     text-align: left;
     cursor: pointer;
     transition: .2s;
-   
+    padding: .3rem;
 }
 
 .box-game:hover{
@@ -139,8 +139,13 @@ main {
     box-shadow: -1px 1px 8px -4px;
 }
 
+.box-game h3{
+    text-align: center;
+}
+
 .image-game img {
-    width: 100%;
+    width: 200px;
+    height: 300px;
 }
 
 /* Rodapé */
@@ -193,4 +198,12 @@ footer {
 
 .copy h5 {
     color: #37373a;
+}
+
+.hide{
+    display: none;
+}
+
+.selec{
+    color: #ff6666;
 }
