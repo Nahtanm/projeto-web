@@ -4,13 +4,30 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+body{
+    background-color: #adaab9;
+}
+
 /* Cabeçalhos */
 #headers {
     width: 100%;
 }
 
+.box-logo li {
+    margin-right: 0;
+    color: #fff;
+    font-size: 20px;
+}
+
+.space {
+    margin-left: 8px;
+}
+
+/* .leter {
+    visibility: hidden;
+} */
+
 header {
-    height: 200px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -28,12 +45,8 @@ h1 {
 }
 
 .box-logo img {
-    margin-left: 4rem;
-    width: 150px;
-}
-
-header nav {
-    margin-bottom: 6rem;
+    margin: .4rem 0 auto 4rem;
+    width: 100px;
 }
 
 header ul {
@@ -52,7 +65,6 @@ a {
 }
 
 header a {
-
     transition: .2s;
 }
 
@@ -62,19 +74,21 @@ header a:hover {
 
 /* box de pesquisa */
 .box-search {
+    margin: .5rem auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100px;
-    width: 100%;
+    width: 50%;
     background-color: #ff6666;
+    border-radius: 5px;
 }
 
 .form-search {
-    height: 100%;
-    width: 40%;
+    margin: .5rem;
     display: flex;
-    justify-content: space-around;
+    width: 100%;
+    gap: 1rem;
+    justify-content: center;
     align-items: center;
 }
 
@@ -83,6 +97,7 @@ header a:hover {
     padding: .5rem;
     background-color: #ff6666;
     border: 1px solid #fff;
+    border-radius: 5px;
     color: #fff;
 }
 
@@ -102,23 +117,24 @@ header a:hover {
 #search-btn {
     background-color: #fff;
     color: #ff6666;
-    padding: .6rem 3rem;
+    padding: .55rem 3rem;
     font-size: 13px;
     font-weight: bold;
     text-transform: uppercase;
     border: 1px solid #fff;
+    border-radius: 5px;
     cursor: pointer;
     transition: .3s;
     opacity: .7;
 }
 
-#search-btn:hover{
+#search-btn:hover {
     opacity: 1;
 }
 
 /* Cards dos jogos */
 main {
-    margin: 3rem auto;
+    margin: auto;
     width: 60%;
     display: flex;
     justify-content: center;
@@ -132,14 +148,15 @@ main {
     cursor: pointer;
     transition: .2s;
     padding: .3rem;
+    /* visibility: hidden; */
 }
 
-.box-game:hover{
+.box-game:hover {
     transform: translate(2px, -2px);
     box-shadow: -1px 1px 8px -4px;
 }
 
-.box-game h3{
+.box-game h3 {
     text-align: center;
 }
 
@@ -200,10 +217,25 @@ footer {
     color: #37373a;
 }
 
-.hide{
+.hide {
     display: none;
+
 }
 
-.selec{
+.selec {
     color: #ff6666;
+}
+
+.hiden {
+    opacity: 0;
+    transition: all 2s;
+    filter: blur(15px);
+    transform: translateX(-200%);
+}
+
+.show {
+    opacity: 1;
+    transition: all 1s;
+    filter: blur(0);
+    transform: translateX(0);
 }

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="js/javascript.js" defer></script>
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
     <title>Hyrule Codex</title>
     <link rel="shortcut icon" href="imagens/download.png">
 </head>
@@ -15,7 +16,21 @@
         <header>
             <div class="box-logo">
                 <img src="imagens/download.png" alt="logo">
-                <h1>HYRULE CODEX</h1>
+                <ul>
+                    <li class="leter">H</li>
+                    <li class="leter">Y</li>
+                    <li class="leter">R</li>
+                    <li class="leter">U</li>
+                    <li class="leter">L</li>
+                    <li class="leter">E</li>
+                    <li class="leter space"> </li>
+                    <li class="leter">C</li>
+                    <li class="leter">O</li>
+                    <li class="leter">D</li>
+                    <li class="leter">E</li>
+                    <li class="leter">X</li>
+                </ul>
+                <!-- <h1>HYRULE CODEX</h1> -->
             </div>
             <nav>
                 <ul>
@@ -28,10 +43,10 @@
         </header>
         <div class="box-search">
             <form class="form-search">
-                <div class="form-control">
+                <div class="form-control hiden">
                     <input type="text" id="search-input" placeholder="Palavra-chave">
                 </div>
-                <div class="form-control">
+                <div class="form-control hiden">
                     <select id="filter-select">
                         <option value="ação">Ação</option>
                         <option value="aventura">Aventura</option>
@@ -39,113 +54,113 @@
                         <option value="rpg">Rpg</option>
                     </select>
                 </div>
-                <button type="submit" id="search-btn">Pesquisar</button>
+                <button type="submit" id="search-btn" class="form-control hiden">Pesquisar</button>
             </form>
         </div>
     </div>
 
     <main>
-        <div class="box-game">
+        <div class="box-game hiden">
             <div class="image-game">
                 <a href="jogos/ArmoredCore/ArmoredCore.html"><img src="jogos/ArmoredCore/CAPA.ArmoredCore.jpg" alt=""></a>
             </div>
             <h3>Armored Core VI Fires of Rubicon</h3>
 
         </div>
-        <div class="box-game">
+        <div class="box-game hiden">
             <div class="image-game">
-                <img src="jogos/Cyberpunk/CAPA.Cyberpunk2077.jpg" alt="">
+                <a href="jogos/Cyberpunk/Cyberpunk.html"><img src="jogos/Cyberpunk/CAPA.Cyberpunk2077.jpg" alt=""></a>
             </div>
             <h3>Cyberpunk</h3>
 
         </div>
-        <div class="box-game">
+        <div class="box-game hiden ">
             <div class="image-game">
-                <img src="jogos/DevilMayCry/CAPA.DevilMayCry.jpeg" alt="">
+                <a href="jogos/DevilMayCry/Devilmaycry.html"><img src="jogos/DevilMayCry/CAPA.DevilMayCry.jpeg" alt=""></a> 
             </div>
-            <h3>Deveil May Cry</h3>
+            <h3>Devil May Cry</h3>
 
         </div>
-        <div class="box-game">
+        <div class="box-game hiden">
             <div class="image-game">
-                <img src="jogos/DoomEternal/CAPA.DoomEternal.jpg" alt="">
+                <a href="jogos/DoomEternal/Doometernal.html"> <img src="jogos/DoomEternal/CAPA.DoomEternal.jpg" alt=""></a>
             </div>
             <h3>Doom Enternal</h3>
 
         </div>
-        <div class="box-game">
+        <div class="box-game hiden">
             <div class="image-game">
-                <img src="jogos/DragonDogma/CAPA.DragonDogma.jpg" alt="">
+                <a href="jogos/DragonDogma/Dragondogma.html"><img src="jogos/DragonDogma/CAPA.DragonDogma.jpg" alt=""></a> 
             </div>
             <h3>Dragon Dogma</h3>
 
         </div>
-        <div class="box-game">
+        <div class="box-game hiden">
             <div class="image-game">
-                <img src="jogos/DreadDelusion/CAPA.DreadDelusion.jpg" alt="">
+                <a href="jogos/DreadDelusion/Dreaddelusion.html"><img src="jogos/DreadDelusion/CAPA.DreadDelusion.jpg" alt=""></a>  
             </div>
             <h3>Dread Delusion</h3>
 
         </div>
-        <div class="box-game">
+        <div class="box-game hiden">
             <div class="image-game">
-                <img src="jogos/EldenRing/CAPA.EldenRing.jpg" alt="">
+                <a href="jogos/EldenRing/Eldenring.html"><img src="jogos/EldenRing/CAPA.EldenRing.jpg" alt=""></a> 
             </div>
             <h3>Elden Ring</h3>
 
         </div>
-        <div class="box-game">
+        <div class="box-game hiden">
             <div class="image-game">
-                <img src="jogos/Lunacid/CAPA.Lunacid.jpg" alt="">
+                <a href="jogos/Lunacid/Lunacid.html"><img src="jogos/Lunacid/CAPA.Lunacid.jpg" alt=""></a>  
             </div>
             <h3>Lunacid</h3>
 
         </div>
-        <div class="box-game">
+        <div class="box-game hiden">
             <div class="image-game">
-                <img src="jogos/MonsterHunterWorld/CAPA.MonsterHunter.jpg" alt="">
+                <a href="jogos/MonsterHunterWorld/Monsterhunter.html"><img src="jogos/MonsterHunterWorld/CAPA.MonsterHunter.jpg" alt=""></a>   
             </div>
             <h3>Monster Hunter World</h3>
 
         </div>
-        <div class="box-game">
+        <div class="box-game hiden">
             <div class="image-game">
-                <img src="jogos/MortalShell/CAPA.MortalShel.jpg" alt="">
+                <a href="jogos/MortalShell/Mortalshell.html"><img src="jogos/MortalShell/CAPA.MortalShel.jpg" alt=""></a>  
             </div>
             <h3>Mortal Shell</h3>
 
         </div>
-        <div class="box-game">
+        <div class="box-game hiden">
             <div class="image-game">
-                <img src="jogos/Outward/CAPA.Outward.jpg" alt="">
+                <a href="jogos/Outward/Outward.html"><img src="jogos/Outward/CAPA.Outward.jpg" alt=""></a>  
             </div>
             <h3>Outward</h3>
 
         </div>
-        <div class="box-game">
+        <div class="box-game hiden">
             <div class="image-game">
-                <img src="jogos/RedDeadRedemption/CAPA.RedDead.jpg" alt="">
+                <a href="jogos/RedDeadRedemption/Redead.html"><img src="jogos/RedDeadRedemption/CAPA.RedDead.jpg" alt=""></a>   
             </div>
             <h3>Red Dead Redemption</h3>
 
         </div>
-        <div class="box-game">
+        <div class="box-game hiden">
             <div class="image-game">
-                <img src="jogos/SekiroShadowsDieTwice/CAPA.Sekiro.png" alt="">
+                <a href="jogos/SekiroShadowsDieTwice/Sekiro.html"><img src="jogos/SekiroShadowsDieTwice/CAPA.Sekiro.png" alt=""></a>  
             </div>
             <h3>Sekiro Shadows Die Twice</h3>
 
         </div>
-        <div class="box-game">
+        <div class="box-game hiden">
             <div class="image-game">
-                <img src="jogos/TailsOfIron/CAPA.TailsOfIron.jpg" alt="">
+                <a href="jogos/TailsOfIron/Tails.html"><img src="jogos/TailsOfIron/CAPA.TailsOfIron.jpg" alt=""></a>   
             </div>
             <h3>Tails Ofiron</h3>
 
         </div>
-        <div class="box-game">
+        <div class="box-game hiden">
             <div class="image-game">
-                <img src="jogos/TheWitcher/CAPA.TheWitcher.png" alt="">
+                <a href="jogos/TheWitcher/Thewitcher.html"><img src="jogos/TheWitcher/CAPA.TheWitcher.png" alt=""></a>  
             </div>
             <h3>The Witcher</h3>
 
