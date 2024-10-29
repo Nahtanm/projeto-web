@@ -1,0 +1,51 @@
+2  Armored Core VI Fires of Rubicon
+
+Descrição:
+
+Um novo jogo de ação baseado no conceito da série ARMORED CORE e aprimorado pelo conhecimento adquirido com o recente desenvolvimento de jogos de ação da FromSoftware.
+
+Gêneros:
+
+Mechas
+Personalização de Personagem
+Ação
+Robôs
+Terceira Pessoa
+Combate
+Ritmo Rápido
+3D
+Ficção Científica
+Soulslike
+Multijogador
+Futurista
+Pós-Apocalíptico
+Um Jogador
+Difícil
+Combate com Veículos
+Trilha Sonora
+Militar
+Ação / Aventura
+Atmosférico
+
+REQUISITOS DE SISTEMA:
+
+MÍNIMOS:
+Requer um processador e sistema operacional de 64 bits
+SO: Windows 10
+Processador: Intel Core i7-4790K | Intel Core i5-8400 or AMD Ryzen 7 1800X | AMD Ryzen 5 2600
+Memória: 12 GB de RAM
+Placa de vídeo: NVIDIA GeForce GTX 1650, 4 GB or AMD Radeon RX 480, 4 GB
+DirectX: Versão 12
+Armazenamento: 60 GB de espaço disponível
+Placa de som: Windows Compatible Audio Device
+
+RECOMENDADOS:
+Requer um processador e sistema operacional de 64 bits
+SO: Windows 10/11
+Processador: Intel Core i7-7700 | Intel Core i5-10400 or AMD Ryzen 7 2700X | AMD Ryzen 5 3600
+Memória: 12 GB de RAM
+Placa de vídeo: NVIDIA GeForce GTX 1060, 6GB or AMD Radeon RX 590, 8GB or Intel Arc A750, 8GB
+DirectX: Versão 12
+Armazenamento: 60 GB de espaço disponível
+Placa de som: Windows Compatible Audio Device
+ 

@@ -1,0 +1,46 @@
+11 Mortal Shell
+
+Descrição:
+
+Mortal Shell é um RPG de ação que testará sua sanidade e perseverança em um mundo despedaçado. Seus oponentes não são piedosos, sua sobrevivência depende de percepção, precisão e instintos elevados. Possua guerreiros esquecidos, explore santuários ocultos dos devotos e enfrente inimigos atormentados.
+
+Gêneros: 
+
+Soulslike
+Fantasia Sombria
+Ação
+RPG
+Difícil
+Violento
+Um Jogador
+RPG de Ação
+Terceira Pessoa
+Hack and Slash
+Atmosférico
+Aventura
+Mundo Aberto
+Multijogador
+Violência Detalhada
+Indie
+Conteúdo Sexual
+Terror
+Nudez
+Cooperativo
+
+REQUISITOS DE SISTEMA:
+
+MÍNIMOS:
+Requer um processador e sistema operacional de 64 bits
+SO *: Windows 7 SP1 or newer
+Processador: Intel Core i5-4590 or AMD FX 8350
+Memória: 8 GB de RAM
+Placa de vídeo: NVIDIA GTX 970 or AMD Radeon R9 290
+Armazenamento: 12 GB de espaço disponível
+
+RECOMENDADOS:
+Requer um processador e sistema operacional de 64 bits
+SO: Windows 10
+Processador: Intel Core i7 or AMD Ryzen 7
+Memória: 16 GB de RAM
+Placa de vídeo: NVIDIA GTX 1070 or AMD Radeon RX Vega 56
+Armazenamento: 12 GB de espaço disponível

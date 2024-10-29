@@ -1,0 +1,51 @@
+6  Dragon's Dogma: Dark Arisen
+
+Descrição: 
+
+Ambientado em um vasto mundo aberto, Dragon's Dogma: Dark Arisen apresenta uma experiência de combate de ação recompensadora. Os jogadores embarcam em uma aventura épica em um mundo rico e vivo com três companheiros de IA, conhecidos como Pawns. Esses parceiros lutam independentemente, demonstrando proeza e habilidade que desenvolveram com base em traços aprendidos de cada jogador. Usuários de PC podem compartilhar esses Pawns online e colher recompensas de tesouros, dicas e sugestões de estratégia para derrubar os inimigos terríveis. Pawns também podem ser emprestados quando habilidades específicas são necessárias para completar várias missões desafiadoras.
+
+Gêneros: 
+
+RPG
+Mundo Aberto
+Personalização de Personagem
+Fantasia
+Ação
+Aventura
+Um Jogador
+RPG de Ação
+Dragões
+Terceira Pessoa
+Fantasia Sombria
+Mágica
+Exploração
+Atmosférico
+Trilha Sonora Boa
+Boa Trama
+Difícil
+Multijogador
+JRPG
+Hack and Slash
+
+
+REQUISITOS DE SISTEMA:
+
+MÍNIMOS:
+SO *: Windows Vista or newer (32 or 64 bit)
+Processador: Intel Core i5 660 CPU or equivalent
+Memória: 4 GB de RAM
+Placa de vídeo: Radeon HD 5870 or equivalent
+DirectX: Versão 9.0c
+Rede: Conexão de internet banda larga
+Armazenamento: 20 GB de espaço disponível
+Placa de som: DirectX-compatible sound card or onboard audio chip
+
+RECOMENDADOS:
+SO *: Windows 7/8/10
+Processador: Intel Core i7-4770K or equivalent
+Memória: 8 GB de RAM
+Placa de vídeo: NVIDIA GeForce GTX 760 or equivalent
+DirectX: Versão 9.0c
+Rede: Conexão de internet banda larga
+Armazenamento: 20 GB de espaço disponível
+Placa de som: DirectX-compatible sound card or onboard audio chip

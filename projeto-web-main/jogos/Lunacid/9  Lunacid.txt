@@ -1,0 +1,39 @@
+9  Lunacid
+
+Descrição:
+
+Atirado no Grande Poço, desgarrado pelo mundo acima. Você desbrava a escuridão em busca do Antigo, sua última esperança. Lunacid é um explorador de masmorras de fantasia sombria inspirado em Shadow Tower e King’s Field.
+
+Gêneros: 
+
+Explorador de Calabouços
+Fantasia Sombria
+Primeira Pessoa
+RPG
+Atmosférico
+Retrô
+RPG de Ação
+Soulslike
+Um Jogador
+Metroidvania
+Indie
+3D
+Terror
+Estilizado
+Combate
+Mundo Aberto
+Violento
+Jogador X Ambiente (PvE)
+Violência Detalhada
+LGBTQIA+
+
+REQUISITOS DE SISTEMA: 
+
+MÍNIMOS:
+Requer um processador e sistema operacional de 64 bits
+SO *: Windows 7
+Processador: Intel Core i3 1.3 GHz
+Memória: 4 MB de RAM
+Placa de vídeo: 2GB Intregraded graphics
+Armazenamento: 800 MB de espaço disponível
+Placa de som: Windows Audio

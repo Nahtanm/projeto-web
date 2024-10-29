@@ -1,0 +1,44 @@
+12 Outward 
+
+Descrição:
+
+Nenhuma jornada extraordinária é alcançada sem grande esforço. Em Outward, o frio da noite ou um ferimento infeccionado podem ser tão perigosos quanto um predador se espreitando na escuridão. Explore o vasto mundo de Aurai só ou no modo cooperativo.
+
+Gêneros: 
+
+RPG
+Mundo Aberto
+Sobrevivência
+Cooperativo
+Cooperativo On-line
+Soulslike
+Cooperativo Local
+Fantasia
+Aventura
+Tela Dividida
+Exploração
+Multijogador
+Um Jogador
+Terceira Pessoa
+Difícil
+Atmosférico
+Gerenciamento de Recursos
+Realístico
+Compatível com Mods
+Violento
+
+REQUISITOS DE SISTEMAD:
+
+MÍNIMOS:
+SO *: Windows 7 (64 Bit) / 8 (64 Bit) / 10 (64 Bit)
+Processador: Intel Core i5-750 or equivalent
+Memória: 6 GB de RAM
+Placa de vídeo: Nvidia GTX 660 or equivalent
+Armazenamento: 51 GB de espaço disponível
+
+RECOMENDADOS:
+SO *: Windows 7 (64 Bit) / 8 (64 Bit) / 10 (64 Bit)
+Processador: Intel Core i5-2400 or equivalent
+Memória: 8 GB de RAM
+Placa de vídeo: Nvidia GTX 960 or equivalent
+Armazenamento: 51 GB de espaço disponível
