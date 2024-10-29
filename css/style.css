@@ -143,6 +143,7 @@ main {
 }
 
 .box-game {
+    flex-direction: column;
     width: 200px;
     text-align: left;
     cursor: pointer;

@@ -6,6 +6,7 @@ const searchInput = document.querySelector("#search-input");
 const searchBtn = document.querySelector("#search-btn");
 const boxGame = document.querySelectorAll(".box-game");
 const formControl = document.querySelectorAll(".form-control");
+const filterSelect = document.querySelector("#filter-select");
 
 // Funções
 const getSearch = (searchValeu) => {
@@ -20,6 +21,45 @@ const getSearch = (searchValeu) => {
       box.classList.add("hide");
     }
   });
+};
+
+const filter = (filterValue) => {
+  switch (filterValue) {
+    case "all":
+      console.log(filterValue);
+      boxGame.forEach((box) =>
+        box.style.display = "flex"
+      );
+      break;
+    case "rpg":
+      boxGame.forEach((box) =>
+        box.classList.contains("rpg")
+          ? (box.style.display = "flex")
+          : (box.style.display = "none")
+      );
+      break;
+    case "acao":
+      boxGame.forEach((box) =>
+        box.classList.contains("acao")
+          ? (box.style.display = "flex")
+          : (box.style.display = "none")
+      );
+      break;
+    case "soulslike":
+      boxGame.forEach((box) =>
+        box.classList.contains("soulslike")
+          ? (box.style.display = "flex")
+          : (box.style.display = "none")
+      );
+      break;
+    case "mundo-aberto":
+      boxGame.forEach((box) =>
+        box.classList.contains("mundo-aberto")
+          ? (box.style.display = "flex")
+          : (box.style.display = "none")
+      );
+      break;
+  }
 };
 
 // Eventos
@@ -43,13 +83,13 @@ searchInput.addEventListener("keyup", (e) => {
   getSearch(searchValeu);
 });
 
-// ScrolReveal
-// window.sr = ScrollReveal({reset: true});
+filterSelect.addEventListener("change", (e) => {
+  const filterValue = e.target.value;
 
-// sr.reveal('.box-game',{duration: 1000});
-// sr.reveal('header, .box-search',{duration:1000})
-// sr.reveal('.box-logo, footer', {duration: 2000});
-// sr.reveal('.leter',{interval: 500});
+  filter(filterValue);
+
+  console.log(filterValue);
+});
 
 // IntersectionObeserver
 const myObserve_1 = new IntersectionObserver((entries) => {
