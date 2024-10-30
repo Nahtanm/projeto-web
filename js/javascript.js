@@ -4,31 +4,32 @@ const image = document.querySelector("#poster-container img");
 const main = document.querySelector("main");
 const searchInput = document.querySelector("#search-input");
 const searchBtn = document.querySelector("#search-btn");
-const boxGame = document.querySelectorAll(".box-game");
 const formControl = document.querySelectorAll(".form-control");
 const filterSelect = document.querySelector("#filter-select");
 
 // Funções
 const getSearch = (searchValeu) => {
+  const boxGame = document.querySelectorAll(".box-game");
   let titleValue;
+  
   boxGame.forEach((box) => {
     titleValue = box.querySelector("h3").innerText.toLowerCase();
 
     const normalSearch = searchValeu.toLowerCase();
 
-    box.classList.remove("hide");
+    box.style.display = "flex";
     if (!titleValue.includes(normalSearch)) {
-      box.classList.add("hide");
+      box.style.display = "none";
     }
   });
 };
 
 const filter = (filterValue) => {
+  const boxGame = document.querySelectorAll(".box-game");
   switch (filterValue) {
     case "all":
-      console.log(filterValue);
-      boxGame.forEach((box) =>
-        box.style.display = "flex"
+      boxGame.forEach((box) => 
+        (box.style.display = "flex")
       );
       break;
     case "rpg":
@@ -62,6 +63,7 @@ const filter = (filterValue) => {
   }
 };
 
+
 // Eventos
 btnImage.forEach((btn) => {
   btn.addEventListener("click", (e) => {
@@ -86,9 +88,11 @@ searchInput.addEventListener("keyup", (e) => {
 filterSelect.addEventListener("change", (e) => {
   const filterValue = e.target.value;
 
+  e.preventDefault();
+
   filter(filterValue);
 
-  console.log(filterValue);
+ 
 });
 
 // IntersectionObeserver
@@ -106,6 +110,11 @@ formControl.forEach((box) => {
   myObserve_1.observe(box);
 });
 
-boxGame.forEach((box) => {
-  myObserve_1.observe(box);
-});
+const observe = ()=>{
+  const boxGame = document.querySelectorAll(".box-game");
+  boxGame.forEach((box) => {
+    myObserve_1.observe(box);
+  });
+}
+
+observe()
