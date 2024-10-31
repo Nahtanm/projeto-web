@@ -6,12 +6,29 @@ const searchInput = document.querySelector("#search-input");
 const searchBtn = document.querySelector("#search-btn");
 const formControl = document.querySelectorAll(".form-control");
 const filterSelect = document.querySelector("#filter-select");
+const slideBarImagen = document.querySelector(".slide-bar img");
+const slide = document.querySelector(".slide-bar");
+const boxGame = document.querySelectorAll(".box-game");
+
+const imagens = [
+  "imagens/dragons.jpg",
+  "imagens/readdead.jpg",
+  "imagens/thewitcher.jpg",
+];
+let slideAtual = 0;
 
 // Funções
+const slideBar = () => {
+  slideAtual = (slideAtual + 1) % 3;
+
+  slideBarImagen.src = imagens[slideAtual];
+};
+
+setInterval(slideBar, 3000);
+
 const getSearch = (searchValeu) => {
-  const boxGame = document.querySelectorAll(".box-game");
   let titleValue;
-  
+
   boxGame.forEach((box) => {
     titleValue = box.querySelector("h3").innerText.toLowerCase();
 
@@ -24,45 +41,36 @@ const getSearch = (searchValeu) => {
   });
 };
 
+const filters = (box, filtro) => {
+  box.classList.contains(filtro)
+    ? (box.style.display = "flex")
+    : (box.style.display = "none");
+};
+
 const filter = (filterValue) => {
-  const boxGame = document.querySelectorAll(".box-game");
   switch (filterValue) {
     case "all":
-      boxGame.forEach((box) => 
-        (box.style.display = "flex")
-      );
+      slide.style.display = "flex";
+      boxGame.forEach((box) => (box.style.display = "flex"));
       break;
     case "rpg":
-      boxGame.forEach((box) =>
-        box.classList.contains("rpg")
-          ? (box.style.display = "flex")
-          : (box.style.display = "none")
-      );
+      slide.style.display = "none";
+      boxGame.forEach((box) => filters(box, "rpg"));
       break;
     case "acao":
-      boxGame.forEach((box) =>
-        box.classList.contains("acao")
-          ? (box.style.display = "flex")
-          : (box.style.display = "none")
-      );
+      slide.style.display = "none";
+      boxGame.forEach((box) => filters(box, "acao"));
       break;
     case "soulslike":
-      boxGame.forEach((box) =>
-        box.classList.contains("soulslike")
-          ? (box.style.display = "flex")
-          : (box.style.display = "none")
-      );
+      slide.style.display = "none";
+      boxGame.forEach((box) => filters(box, "soulslike"));
       break;
     case "mundo-aberto":
-      boxGame.forEach((box) =>
-        box.classList.contains("mundo-aberto")
-          ? (box.style.display = "flex")
-          : (box.style.display = "none")
-      );
+      slide.style.display = "none";
+      boxGame.forEach((box) => filters(box, "mundo-aberto"));
       break;
   }
 };
-
 
 // Eventos
 btnImage.forEach((btn) => {
@@ -82,7 +90,13 @@ searchInput.addEventListener("keyup", (e) => {
   e.preventDefault();
   const searchValeu = searchInput.value;
 
-  getSearch(searchValeu);
+  if (!searchValeu) {
+    slide.style.display = "flex";
+    filter(filterSelect.value);
+  } else {
+    getSearch(searchValeu);
+    slide.style.display = "none";
+  }
 });
 
 filterSelect.addEventListener("change", (e) => {
@@ -91,8 +105,6 @@ filterSelect.addEventListener("change", (e) => {
   e.preventDefault();
 
   filter(filterValue);
-
- 
 });
 
 // IntersectionObeserver
@@ -110,11 +122,6 @@ formControl.forEach((box) => {
   myObserve_1.observe(box);
 });
 
-const observe = ()=>{
-  const boxGame = document.querySelectorAll(".box-game");
-  boxGame.forEach((box) => {
-    myObserve_1.observe(box);
-  });
-}
-
-observe()
+boxGame.forEach((box) => {
+  myObserve_1.observe(box);
+});

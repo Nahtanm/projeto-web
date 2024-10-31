@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/contato.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/javascript.js" defer></script>
+    <title>Contato</title>
+</head>
+
+<body>
+    <header>
+        <div class="box-logo">
+            <img src="imagens/download.png" alt="logo">
+
+            <h2>HYRULE CODEX</h2>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Jogos</a></li>
+                <li><a href="sobre-nos.html">Sobre nós</a></li>
+                <li><a href="#" class="selec">Contato</a></li>
+                <li><a href="#">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="box-form">
+        <div class="control-form">
+            <h2>Contate-nos</h2>
+            <form action="https://api.staticforms.xyz/submit" method="post" class="form-contato">
+                <input type="hidden" name="accessKey" value="b4162e7f-d45d-401c-940f-f952f76335aa">
+                <div class="controle">
+                    <input type="text" name="nome" id="" placeholder="Nome:" required>
+                    <input type="text" name="fone" id="" placeholder="Telefone:" required>
+                </div>
+                <div class="controle">
+                    <input type="text" name="email" id="email" placeholder="E-mail:" required>
+                </div>
+                <div class="controle">
+                    <textarea name="message" id="" placeholder="Mensagem" required></textarea>
+                </div>
+                <div class="controle">
+                    <input type="hidden" name="redirectTo" value="https://example.com/contact/success">
+                    <input type="submit" value="Enviar" id="enviar">
+                </div>
+
+            </form>
+        </div>
+
+    </section>
+</body>
+
+</html>
