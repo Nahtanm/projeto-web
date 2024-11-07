@@ -4,12 +4,12 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-html{
+html {
     height: 100%;
     min-height: 100%;
 }
 
-body{
+body {
     display: flex;
     flex-direction: column;
     min-height: 100%;
@@ -49,13 +49,13 @@ header {
     width: 100px;
 }
 
-header ul {
+#nav-desktop ul {
     display: flex;
     list-style: none;
     margin-right: 3rem;
 }
 
-header li {
+#nav-desktop li {
     margin-right: 1.5rem;
 }
 
@@ -70,7 +70,7 @@ header a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 50%;
+    width: 90%;
     background-color: #ff6666;
     border-radius: 5px;
 }
@@ -108,7 +108,7 @@ header a:hover {
 }
 
 /* Cards dos jogos */
-#main-container{
+#main-container {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -124,18 +124,18 @@ main {
     gap: 2rem;
 }
 
-.slide-bar{
+.slide-bar {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
     margin-bottom: 1rem;
-    height: 22rem;
+    height: 23rem;
 }
 
-.slide-bar img{
+.slide-bar img {
     width: 40%;
-    height: 20rem;
+    height: 22rem;
     border-radius: 5px;
 }
 
@@ -221,7 +221,7 @@ footer {
     opacity: 0;
     transition: all 2s;
     filter: blur(15px);
-    transform: translateX(-200%);
+    transform: translateX(-100%);
 }
 
 .show {
@@ -236,7 +236,7 @@ footer {
 }
 
 /* Sobre nós */
-.text{
+.text {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -245,23 +245,23 @@ footer {
     width: 50%;
 }
 
-.text p{
+.text p {
     text-align: center;
     width: 50%;
 }
 
-.voltar{
+.voltar {
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    margin-top: 6rem ;
+    margin-top: 6rem;
     background-color: #4b3b8f;
     width: 2rem;
     height: 2rem;
     transition: .5s;
 }
 
-.voltar:hover{
+.voltar:hover {
     transform: translate(2px, -2px);
 }

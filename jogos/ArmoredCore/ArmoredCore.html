@@ -4,21 +4,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="../../js/javascript.js" defer></script>
+
     <link rel="stylesheet" href="../../css/pagina-do-jogo.css">
+    <script src="../../js/pagina-jogo.js" defer></script>
+    <link rel="stylesheet" href="../../css/responsividade.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+   
     <link rel="shortcut icon" href="imagens/download.png">
     <title>Hyrule Codex</title>
 </head>
 
 <body>
     <header>
-        <a href="../../index.html"><img src="../../imagens/download.png" alt="logo"></a>
+        <div class="box-logo">
+            <img src="../../imagens/download.png" alt="logo">
+
+            <h2>HYRULE CODEX</h2>
+        </div>
+        <nav id="nav-desktop">
+            <ul>
+                <li><a href="../../index.html" class="selec">Jogos</a></li>
+                <li><a href="../../sobre-nos.html">Sobre nós</a></li>
+                <li><a href="../../contato.html">Contato</a></li>
+                <li><a href="#">Login</a></li>
+            </ul>
+        </nav>
+
+        <div id="btn-abrir">
+            <i class="bi bi-list"></i>
+        </div>
+
+        <div class="menu-mobile">
+            <div id="btn-fechar">
+                <i class="bi bi-x-lg"></i>
+            </div>
+            <nav id="menu-lateral">
+                <ul>
+                    <li><a href="../../index.html">Jogos</a></li>
+                    <li><a href="../../sobre-nos.html">Sobre nós</a></li>
+                    <li><a href="../../contato.html">Contato</a></li>
+                    <li><a href="#">Login</a></li>
+                </ul>
+            </nav>
+            </nav>
+        </div>
+        
     </header>
+    <div class="tela-aux"></div>
     <div class="container">
         <!-- Conteúdo lado direito -->
         <main id="poster-container">
 
-            <img src="foto_1.jpg" alt="">
+            <img src="foto_1.jpg" id="imagem-jogo" alt="">
 
             <div class="box-imagens">
                 <ul>

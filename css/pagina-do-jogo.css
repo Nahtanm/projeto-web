@@ -1,46 +1,76 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-li{
+li {
     list-style: none;
     text-transform: uppercase;
 }
 
-.container{
+.container {
     display: flex;
     justify-content: center;
 }
 
-header{
-    width: 100%;
-    background-color: #4b3b8f;
+header {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #4b3b8f;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    transition: .2s;
+}
+
+.box-logo {
+    display: flex;
     align-items: center;
 }
 
-header img{
-    width: 70px;
-    padding: .5rem;
+.box-logo h2 {
+    margin-left: 1rem;
+    color: #fff;
+}
+
+.box-logo img {
+    margin: .4rem 0 auto 4rem;
+    width: 100px;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+    margin-right: 3rem;
+}
+
+header li {
+    margin-right: 1.5rem;
+}
+
+header a:hover {
+    color: #ff6666;
 }
 
 /* container direito */
-#poster-container{
+#poster-container {
     display: flex;
     flex-direction: column;
     width: 50%;
     margin-top: 3rem;
 }
 
-#poster-container img{
+#poster-container img {
     width: 100%;
 }
 
 #sobre-o-jogo,
-#requisitos-jogo{
+#requisitos-jogo {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -49,25 +79,25 @@ header img{
 }
 
 #sobre-o-jogo h3,
-#requisitos-jogo h3{
+#requisitos-jogo h3 {
     padding: 1rem;
     text-transform: uppercase;
 }
 
-#sobre-o-jogo p{
+#sobre-o-jogo p {
     padding: 0 1rem 1rem;
 }
 
-#requisitos-jogo ul{
+#requisitos-jogo ul {
     padding: 1rem;
 }
 
-#requisitos-jogo li{
+#requisitos-jogo li {
     padding: .3rem;
     font-size: 12px;
 }
 
-.windows{
+.windows {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -77,11 +107,11 @@ header img{
     background-color: #f12929;
 }
 
-#requisitos-jogo p{
+#requisitos-jogo p {
     color: #fff;
 }
 
-#requisitos-jogo h4{
+#requisitos-jogo h4 {
     color: #695d5d;
     font-weight: bold;
     text-transform: uppercase;
@@ -90,49 +120,49 @@ header img{
 }
 
 /* Container esquerto */
-h3 span{
+h3 span {
     color: #f12929;
 }
 
-#info-game{
+#info-game {
     flex: 1 1 0;
     width: 30%;
 }
 
-#info-games h3{
+#info-games h3 {
     text-transform: uppercase;
     padding: 1rem;
     font-weight: bold;
 }
 
 #details-games,
-#poster-game{
+#poster-game {
     box-shadow: 1px 1px 8px -4px;
     margin: 3rem 0 1rem 2rem;
-    padding: 0 1rem 1rem ;
+    padding: 0 1rem 1rem;
 }
 
-#poster-game{
+#poster-game {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
-#poster-game img{
+#poster-game img {
     width: 250px;
 }
 
-#details-games li span{
+#details-games li span {
     color: #8a8181;
 }
 
-#details-games li{
+#details-games li {
     font-weight: 500;
     margin-bottom: .5rem;
 }
 
-#requisitos-jogo li span{
+#requisitos-jogo li span {
     color: #695d5d;
 }
 
@@ -145,7 +175,7 @@ footer {
     height: 150px;
     width: 100%;
     background-color: #eeedf1;
-    margin-top: 2rem ;
+    margin-top: 2rem;
 }
 
 .controler {
@@ -190,13 +220,13 @@ footer {
 }
 
 /* Troca de imagens */
-.box-imagens{
+.box-imagens {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.box-imagens ul{
+.box-imagens ul {
     display: flex;
 }
 
@@ -206,6 +236,6 @@ footer {
     cursor: pointer;
 }
 
-.selected{
+.selected {
     border: 3px solid #f12929;
 }
